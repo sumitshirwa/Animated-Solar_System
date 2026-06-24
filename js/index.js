@@ -2,7 +2,7 @@
  🌌 Solar System Interactive Logic – JavaScript 🌌
 
  Author: Sumit Shirwa 👩‍💻
- Date: June 22, 2025 📅
+ Date: June 22, 2026 📅
  Repository: https://github.com/sumitshirwa/Animated-Solar_System.git 🔗
 
  Description:
