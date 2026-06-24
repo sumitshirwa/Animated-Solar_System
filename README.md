@@ -1,39 +1,6 @@
 # 🌌 Animated Solar System 🌌
 
-This project is an **interactive solar system visualization** using pure **HTML, CSS, and JavaScript**. It creatively represents each planet with beautiful animations and dynamic UI elements.
-
-<!-- GitHub Project Badges -->
-<p align="center">
-  <a href="https://github.com/madhurimarawat/Animated-Solar-System/stargazers">
-    <img src="https://img.shields.io/github/stars/madhurimarawat/Animated-Solar-System?color=ffd700&style=for-the-badge" alt="GitHub stars">
-  </a>
-  <a href="https://github.com/madhurimarawat/Animated-Solar-System/network/members">
-    <img src="https://img.shields.io/github/forks/madhurimarawat/Animated-Solar-System?color=ff69b4&style=for-the-badge" alt="GitHub forks">
-  </a>
-  <a href="https://github.com/madhurimarawat/Animated-Solar-System/issues">
-    <img src="https://img.shields.io/github/issues/madhurimarawat/Animated-Solar-System?color=00ced1&style=for-the-badge" alt="GitHub issues">
-  </a>
-  <a href="https://github.com/madhurimarawat/Animated-Solar-System/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/madhurimarawat/Animated-Solar-System?color=8a2be2&style=for-the-badge" alt="MIT License">
-  </a>
-  <a href="https://github.com/madhurimarawat/Animated-Solar-System/watchers">
-    <img src="https://img.shields.io/github/watchers/madhurimarawat/Animated-Solar-System?style=for-the-badge&color=00bfff" alt="Watchers">
-  </a>
-  <a href="https://github.com/madhurimarawat/Animated-Solar-System">
-    <img src="https://img.shields.io/github/languages/top/madhurimarawat/Animated-Solar-System?style=for-the-badge&color=20c997" alt="Top language">
-  </a>
-  <a href="https://github.com/madhurimarawat/Animated-Solar-System/commits/main">
-    <img src="https://img.shields.io/github/last-commit/madhurimarawat/Animated-Solar-System?style=for-the-badge&color=f28500" alt="Last commit">
-  </a>
-</p>
-
-<p align="center">
-<a href="https://madhurimarawat.github.io/Animated-Solar-System">
-<img src="snapshots/preview-themes.gif" height="100%"></a>
-<a href="https://madhurimarawat.github.io/Animated-Solar-System">
-<img src ="snapshots/preview-responsive.gif" height="500px">
-</a>
-</p>
+This project is an **interactive solar system visualization** using pure **HTML, CSS, and JavaScript**. It creatively represents each planet with beautiful animations and dynamic UI elements.>
 
 ---
 
@@ -92,12 +59,10 @@ This project is an **interactive solar system visualization** using pure **HTML,
 > Just clone and open `index.html` in any browser!
 
 ```bash
-git clone https://github.com/madhurimarawat/Animated-Solar-System.git
+git clone https://github.com/sumitshirwa/Animated-Solar_System.git
 cd Animated-Solar-System
 ```
 
-> [!NOTE]
-> 📘 [Read the Contribution Guide](CONTRIBUTING.md)
 
 ### 🧩 Customize It
 
@@ -110,7 +75,7 @@ cd Animated-Solar-System
 ## 🖼️ Preview
 
 <p align="center">
-<a href="https://madhurimarawat.github.io/Animated-Solar-System">
+<a href="https://solarsystem-rouge.vercel.app/">
 <img src="snapshots/preview.png">
 <img src ="snapshots/preview-light.png">
 </a></p>
@@ -128,9 +93,6 @@ cd Animated-Solar-System
 * 🌍 Add 3D depth illusion – Enhance the planetary visuals with shading and gradients to give a more spherical, three-dimensional look.
 * 🧹 Refactor CSS – Use relative sizing (`max-height: 25%` for planet cards) instead of fixed pixel values for better scalability across devices.
 * 🧮 Dynamic orbit generation – Use JavaScript to calculate orbit sizes as a percentage of the viewport or container width, eliminating the need for separate responsive rules for each device and planet.
- 
-> [!TIP]
-> Wanna implement this or add something yourself? Check out [contributing.md](contributing.md).
 
 ---
 
@@ -146,8 +108,3 @@ cd Animated-Solar-System
 ## Thanks for Visiting 😄
 
 - Drop a 🌟 if you find this repository useful.<br><br>
-- If you have any doubts or suggestions, feel free to reach me.<br><br>
-📫 How to reach me:  &nbsp; [![Linkedin Badge](https://img.shields.io/badge/-madhurima-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/madhurima-rawat/) &nbsp; &nbsp;
-<a href ="mailto:rawatmadhurima4@gmail.com"><img src="https://github.com/madhurimarawat/Machine-Learning-Using-Python/assets/105432776/b6a0873a-e961-42c0-8fbf-ab65828c961a" height=35 width=30 title="Mail Illustration" alt="Mail Illustration📫" > </a><br><br>
-- **Contribute and Discuss:** Feel free to open <a href= "https://github.com/madhurimarawat/Animated-Solar-System/issues">issues 🐛</a>, submit <a href = "https://github.com/madhurimarawat/Animated-Solar-System/pulls">pull requests 🛠️</a>, or start <a href = "https://github.com/madhurimarawat/Animated-Solar-System/discussions">discussions 💬</a> to help improve this repository!
-
