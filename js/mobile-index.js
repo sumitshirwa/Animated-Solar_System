@@ -1,8 +1,8 @@
 /********************************************************************************************
  📱 Mobile-Friendly Solar System Logic – JavaScript
 
- Author: Madhurima Rawat 👩‍💻
- Date: July 1, 2025 📅
+ Author: Sumit Shirwa 👩‍💻
+ Date: June 22, 2026 📅
  Description:
  Optimized script for mobile performance and interaction. Minimizes resource use while keeping
  orbit animation, tooltips, and card generation intact.
