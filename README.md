@@ -2,6 +2,14 @@
 
 This project is an **interactive solar system visualization** using pure **HTML, CSS, and JavaScript**. It creatively represents each planet with beautiful animations and dynamic UI elements.>
 
+<p align="center">
+<a href="https://solarsystem-rouge.vercel.app/">
+<img src="snapshots/preview-themes.gif" height="100%"></a>
+<a href="https://solarsystem-rouge.vercel.app/">
+<img src ="snapshots/preview-responsive.gif" height="500px">
+</a>
+</p>
+
 ---
 
 ## ✨ Features
