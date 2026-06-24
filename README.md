@@ -3,9 +3,9 @@
 This project is an **interactive solar system visualization** using pure **HTML, CSS, and JavaScript**. It creatively represents each planet with beautiful animations and dynamic UI elements.>
 
 <p align="center">
-<a href="https://solarsystem-rouge.vercel.app/">
+<a href="https://animatedsolar-system.vercel.app/">
 <img src="snapshots/preview-themes.gif" height="100%"></a>
-<a href="https://solarsystem-rouge.vercel.app/">
+<a href="https://animatedsolar-system.vercel.app/">
 <img src ="snapshots/preview-responsive.gif" height="500px">
 </a>
 </p>
@@ -83,7 +83,7 @@ cd Animated-Solar-System
 ## 🖼️ Preview
 
 <p align="center">
-<a href="https://solarsystem-rouge.vercel.app/">
+<a href="https://animatedsolar-system.vercel.app/">
 <img src="snapshots/preview.png">
 <img src ="snapshots/preview-light.png">
 </a></p>
@@ -109,7 +109,7 @@ cd Animated-Solar-System
 > [!NOTE]
 > Hosted on GitHub Pages platform.
 > 
-> [🔗 View it live](https://solarsystem-rouge.vercel.app/)
+> [🔗 View it live](https://animatedsolar-system.vercel.app/)
 
 ---
 
