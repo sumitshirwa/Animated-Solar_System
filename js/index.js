@@ -1,9 +1,9 @@
 /*********************************************************************************************
  🌌 Solar System Interactive Logic – JavaScript 🌌
 
- Author: Madhurima Rawat 👩‍💻
- Date: July 1, 2025 📅
- Repository: https://github.com/madhurimarawat/Animated-Solar-System 🔗
+ Author: Sumit Shirwa 👩‍💻
+ Date: June 22, 2025 📅
+ Repository: https://github.com/sumitshirwa/Animated-Solar_System.git 🔗
 
  Description:
  This JavaScript file adds interactivity and animation to the Solar System webpage.
