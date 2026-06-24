@@ -1,0 +1,89 @@
+/*
+    🌤️ Solar System Light Mode Theme – Stylesheet 🌤️
+
+    Author: Madhurima Rawat 👩‍💻
+    Date: July 1, 2025 📅
+    Repository: https://github.com/madhurimarawat/Animated-Solar-System 🔗
+
+    Description:
+    This file defines styles for the light mode version of the solar system project. It overrides 
+    the default dark theme to offer a clean, bright appearance suitable for day viewing.
+
+    Features:
+    - 🖼️ Light background for body and cards
+    - 🌑 Adjusted orbit borders and planet label colors
+    - ✨ Smooth compatibility with existing layout and theme toggle
+
+    Usage:
+    - Works with the `toggleMode()` function in `index.js`
+    - Should be linked after `index.css` to properly override base styles
+
+    Related Files:
+    - index.css 🎨
+    - index.js 🧠
+    - responsive-styles.css 📱
+
+    Customize freely and shine bright! ☀️🚀
+*/
+
+/* ☀️ Light mode background and text */
+body.light-mode {
+    background-color: whitesmoke;
+    /* 🌼 Bright, clean background */
+    color: black;
+    /* 🖤 Text in readable black */
+}
+
+/* 🧾 Light mode card background and text */
+body.light-mode .card {
+    background-color: rgb(240, 221, 221);
+    /* 🧁 Soft pinkish background */
+    color: black;
+    /* 🖋️ Ensures card text is visible */
+}
+
+/* 🌀 Light mode orbit lines */
+body.light-mode .orbit {
+    border-color: #333;
+    /* 🎯 Contrasting orbit color on light background */
+    box-shadow: 0 0 2px rgb(115, 220, 164);
+}
+
+/* 💍 Saturn's Ring */
+body.light-mode .saturn .ring {
+
+    border: 3px solid rgba(73, 62, 62, 0.5);
+    box-shadow: 0 0 15px rgba(45, 196, 120, 0.5);
+}
+
+/* 🏷️ Light mode planet labels */
+body.light-mode .planet-name-label {
+    color: #333;
+    /* 📌 Darker shade for visibility over light background */
+    text-shadow: 0 0 2px #ece9e5, 0 0 5px #e6dfdf;
+}
+
+/* 🌗 Mode Toggle Button */
+body.light-mode .mode-toggle {
+    color: white;
+    box-shadow: 0 0 15px rgb(241, 59, 59);
+}
+
+/* 🌗 Mode Toggle Button */
+body.light-mode .mode-toggle:hover {
+    color: bisque;
+}
+
+body.light-mode .card:hover {
+    box-shadow: 0 4px 8px teal;
+}
+
+/* 🐱‍💻 GitHub Icon Hover Effect */
+body.light-mode .github-button img {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 🎯 On Hover: Enlarge and highlight */
+body.light-mode .github-button:hover img {
+    box-shadow: 0 0 12px #333, 0 0 20px rgba(0, 0, 0, 0.3);
+}

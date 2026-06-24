@@ -1,0 +1,485 @@
+/*
+    📱 Responsive Styles for Solar System Project 🌌
+
+    Author: Madhurima Rawat 👩‍💻
+    Date: July 1, 2025
+    Repository: https://github.com/madhurimarawat/Animated-Solar-System 🔗
+
+    Description:
+    This CSS file overrides and enhances layout for smaller screens.
+    Applies adjustments for tablets, mobiles, and compact viewports.
+
+    Features:
+    - Stacks columns vertically on small screens 
+    - Reduces orbit and solar system size for compact fit
+    - Adjusts font sizes and button placement
+    - Ensures scrollability and visibility of content
+
+    Targeted breakpoints:
+    - Tablets: max-width 1024px
+    - Mobiles: max-width 768px, 480px
+*/
+
+/* 📏 Tablets and below */
+@media (max-width: 1024px) and (min-height:900px) {
+
+    .solar-system {
+        margin-left: 0px;
+        width: 500px;
+        height: 500px;
+    }
+
+    /* 🪐 Orbit Sizes – Even spacing based on Neptune (910×535) */
+    .mercury-orbit {
+        width: 295px;
+        height: 155px;
+    }
+
+    .venus-orbit {
+        width: 383px;
+        height: 209px;
+    }
+
+    .earth-orbit {
+        width: 471px;
+        height: 263px;
+    }
+
+    .mars-orbit {
+        width: 559px;
+        height: 317px;
+    }
+
+    .jupiter-orbit {
+        width: 647px;
+        height: 371px;
+    }
+
+    .saturn-orbit {
+        width: 735px;
+        height: 425px;
+    }
+
+    .uranus-orbit {
+        width: 823px;
+        height: 479px;
+    }
+
+    .neptune-orbit {
+        width: 910px;
+        height: 535px;
+    }
+
+    .main-wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 1rem;
+    }
+
+    .planet-cards-left,
+    .planet-cards-right {
+        width: 95%;
+        max-height: 320px;
+        margin: 0 auto 1rem;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    .planet-cards-right::-webkit-scrollbar,
+    .planet-cards-left::-webkit-scrollbar {
+        display: none;
+    }
+
+    .planet-cards-left {
+        margin-bottom: 60px;
+    }
+
+    .planet-cards-right {
+        margin-top: 40px;
+    }
+
+    .mode-toggle {
+        right: 1rem;
+        top: 1rem;
+    }
+
+    /* 🐙 GitHub Button Styling */
+    .github-button {
+        left: auto;
+        /* Remove left positioning */
+        right: 1rem;
+        /* Align to same side as toggle */
+        top: 4.8rem;
+        /* Push it below toggle */
+        margin-top: 0;
+        /* Reset margin override */
+    }
+}
+
+/* 📏 Tablets and below */
+@media (max-width: 1000px) and (min-height:900px) {
+
+    .solar-system {
+        margin-left: 0px;
+        width: 500px;
+        height: 500px;
+    }
+
+    /* 🪐 Orbit Sizes – Even spacing based on Neptune (815×535) */
+    .mercury-orbit {
+        width: 295px;
+        height: 155px;
+    }
+
+    .venus-orbit {
+        width: 369px;
+        height: 209px;
+    }
+
+    .earth-orbit {
+        width: 443px;
+        height: 263px;
+    }
+
+    .mars-orbit {
+        width: 517px;
+        height: 317px;
+    }
+
+    .jupiter-orbit {
+        width: 591px;
+        height: 371px;
+    }
+
+    .saturn-orbit {
+        width: 665px;
+        height: 425px;
+    }
+
+    .uranus-orbit {
+        width: 739px;
+        height: 479px;
+    }
+
+    .neptune-orbit {
+        width: 815px;
+        height: 535px;
+    }
+
+    .main-wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 1rem;
+    }
+
+    .planet-cards-left,
+    .planet-cards-right {
+        width: 95%;
+        max-height: 320px;
+        margin: 0 auto 1rem;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    .planet-cards-right::-webkit-scrollbar,
+    .planet-cards-left::-webkit-scrollbar {
+        display: none;
+    }
+
+    .planet-cards-left {
+        margin-bottom: 60px;
+    }
+
+    .planet-cards-right {
+        margin-top: 40px;
+    }
+
+    .mode-toggle {
+        right: 1rem;
+        top: 1rem;
+    }
+
+    /* 🐙 GitHub Button Styling */
+    .github-button {
+        left: auto;
+        /* Remove left positioning */
+        right: 1rem;
+        /* Align to same side as toggle */
+        top: 4.8rem;
+        /* Push it below toggle */
+        margin-top: 0;
+        /* Reset margin override */
+    }
+}
+
+
+/* 📱 Mobiles – max-width 768px and 480px (Larger Orbits Version) */
+@media (max-width: 768px) {
+
+    .solar-system {
+        margin-left: 0;
+    }
+
+    /* 🪐 Orbit Sizes – Enlarged while maintaining ~10px height gap */
+    .mercury-orbit {
+        width: 260px;
+        height: 140px;
+    }
+
+    .venus-orbit {
+        width: 320px;
+        height: 170px;
+    }
+
+    .earth-orbit {
+        width: 380px;
+        height: 200px;
+    }
+
+    .mars-orbit {
+        width: 440px;
+        height: 230px;
+    }
+
+    .jupiter-orbit {
+        width: 500px;
+        height: 260px;
+    }
+
+    .saturn-orbit {
+        width: 560px;
+        height: 290px;
+    }
+
+    .uranus-orbit {
+        width: 620px;
+        height: 320px;
+    }
+
+    .neptune-orbit {
+        width: 680px;
+        height: 350px;
+    }
+
+    /* 📦 Card Layout – Equal heights and stacked layout */
+    .main-wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 1rem;
+    }
+
+    .planet-cards-left,
+    .planet-cards-right {
+        width: 95%;
+        max-height: 280px;
+        margin: 0 auto 1rem;
+        overflow-y: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    .planet-cards-left::-webkit-scrollbar,
+    .planet-cards-right::-webkit-scrollbar {
+        display: none;
+    }
+
+    .planet-cards-left {
+        margin-bottom: 40px;
+    }
+
+    .planet-cards-right {
+        margin-top: 30px;
+    }
+
+    /* 🔘 Buttons remain untouched */
+    .mode-toggle {
+        right: 1rem;
+        top: 1rem;
+    }
+
+    .github-button {
+        right: 1rem;
+        top: 4.8rem;
+        margin-top: 0;
+        left: auto;
+    }
+}
+
+/* 📱 Mobiles – max-width 768px and 480px (Larger Orbits Version) */
+@media (max-width: 500px) {
+
+    .solar-system {
+        margin-left: 0;
+        width: 400px;
+        height: 320px;
+    }
+
+    /* 🪐 Orbit Sizes – Wider ellipses, progressively flatter toward the center */
+    .mercury-orbit {
+        width: 160px;
+        height: 80px;
+    }
+
+    .venus-orbit {
+        width: 200px;
+        height: 100px;
+    }
+
+    .earth-orbit {
+        width: 240px;
+        height: 140px;
+    }
+
+    .mars-orbit {
+        width: 280px;
+        height: 180px;
+    }
+
+    .jupiter-orbit {
+        width: 320px;
+        height: 220px;
+    }
+
+    .saturn-orbit {
+        width: 360px;
+        height: 260px;
+    }
+
+    .uranus-orbit {
+        width: 380px;
+        height: 290px;
+    }
+
+    .neptune-orbit {
+        width: 400px;
+        height: 320px;
+    }
+
+    .planet-cards-left,
+    .planet-cards-right {
+        max-height: 250px;
+    }
+
+    .planet-cards-left {
+        margin-bottom: 40px;
+    }
+
+    .planet-cards-right {
+        margin-top: 30px;
+    }
+
+    /* 🔘 Buttons remain untouched */
+    .mode-toggle {
+        right: 1rem;
+        top: 1rem;
+    }
+
+    .github-button {
+        right: 7rem;
+        top: -5px;
+        margin-top: 0;
+    }
+
+    /* 🔘 Buttons remain visible but scaled down */
+    .mode-toggle,
+    .github-button {
+        font-size: 0.75rem;
+        /* Smaller text */
+        padding: 0.4rem 0.6rem;
+        /* Reduced padding */
+        transform: scale(0.9);
+        /* Slight scale down */
+        border-radius: 6px;
+        /* Optional: smaller rounded edges */
+    }
+
+    .github-button {
+        transform: scale(0.7);
+        /* Slight scale down */
+    }
+}
+
+/* 📱 Mobiles – max-width 768px and 480px (Larger Orbits Version) */
+@media (max-width: 400px) {
+
+    .solar-system {
+        margin-left: 0;
+        width: 335px;
+        height: 280px;
+    }
+
+    /* 🪐 Orbit Sizes – Adjusted to max width 335px, height preserved */
+    .mercury-orbit {
+        width: 134px;
+        height: 80px;
+    }
+
+    .venus-orbit {
+        width: 167px;
+        height: 100px;
+    }
+
+    .earth-orbit {
+        width: 201px;
+        height: 140px;
+    }
+
+    .mars-orbit {
+        width: 234px;
+        height: 180px;
+    }
+
+    .jupiter-orbit {
+        width: 268px;
+        height: 220px;
+    }
+
+    .saturn-orbit {
+        width: 302px;
+        height: 260px;
+    }
+
+    .uranus-orbit {
+        width: 319px;
+        height: 290px;
+    }
+
+    .neptune-orbit {
+        width: 335px;
+        height: 320px;
+    }
+
+    .planet-cards-left,
+    .planet-cards-right {
+        max-height: 150px;
+    }
+}
+
+/* Adjusting left and right cards size and margin according to device height(for mobile phones) */
+
+/* 📱 Mobiles – max-width 768px and 480px (Larger Orbits Version) */
+@media (max-width: 500px) and (max-height:700px) {
+
+    .solar-system {
+        margin-left: 0;
+        width: 400px;
+        height: 300px;
+    }
+
+    .planet-cards-left,
+    .planet-cards-right {
+        max-height: 180px;
+    }
+
+    .planet-cards-left {
+        margin-top: -17px;
+        margin-bottom: 30px;
+    }
+
+    .planet-cards-right {
+        margin-top: 5px;
+    }
+}
